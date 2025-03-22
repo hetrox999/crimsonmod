@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:gold_block",
+    "$": "crimson-mod:crimsonite_block"
+  },
+  "pattern": [
+    "   ",
+    " $#",
+    " #$"
+  ],
+  "result": {
+    "count": 1,
+    "id": "crimson-mod:crimsonite_dice"
+  }
+}
