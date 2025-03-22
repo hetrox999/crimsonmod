@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "crimson-mod",
+	"version": "${version}",
+	"name": "Crimson Mod",
+	"description": "This mod adds things related to crimson!",
+	"authors": [
+		"Hetrox"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/crimson-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.hetrox.crimsonmod.CrimsonMod"
+		],
+		"fabric-datagen": [
+			"net.hetrox.crimsonmod.CrimsonModDataGenerator"
+		],
+		"client": [
+			"net.hetrox.crimsonmod.CrimsonModClient"
+		]
+	},
+	"mixins": [
+		"crimson-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
