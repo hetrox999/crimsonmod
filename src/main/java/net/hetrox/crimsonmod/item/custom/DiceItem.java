@@ -1,7 +1,6 @@
 package net.hetrox.crimsonmod.item.custom;
 
 import net.minecraft.entity.*;
-import net.minecraft.entity.boss.WitherEntity;
 import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.entity.mob.WardenEntity;
 import net.minecraft.entity.player.PlayerEntity;
