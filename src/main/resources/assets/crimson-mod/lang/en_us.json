@@ -22,6 +22,9 @@
   "item.crimson-mod.crimsonite_dice": "Crimsonite Dice",
   "item.crimson-mod.crimsonite_staff": "Crimsonite Staff",
 
+  "tooltip.crimson-mod.staff.tooltip": "Press §6§l SHIFT§r  to view more info",
+  "tooltip.crimson-mod.staff.tooltip2": "§9§kI§r  This §6§l ITEM §r  is §a§l  MAGIC§r  §9§kI§r",
+
 
 
   "item.crimson-mod.dice.roll.1": "You rolled a§l§4 1§r game over, you §l§4LOSE!",

@@ -1,9 +1,9 @@
 package net.hetrox.crimsonmod.item.custom;
 
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.entity.SpawnReason;
+import net.minecraft.entity.*;
+import net.minecraft.entity.boss.WitherEntity;
+import net.minecraft.entity.mob.MobEntity;
+import net.minecraft.entity.mob.WardenEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -54,14 +54,16 @@ public class DiceItem extends Item {
 
                     switch (randomNumber) {
                         case 1:
+                            serverWorld.setTimeOfDay(13000);
+                            serverWorld.setWeather(0, 6000, true, true);
                             List<EntityType<?>> mobPoolOne = Arrays.asList(
                                     EntityType.WITHER,
                                     EntityType.ENDER_DRAGON,
                                     EntityType.WARDEN,
                                     EntityType.RAVAGER,
-                                    EntityType.ELDER_GUARDIAN,
-                                    EntityType.GIANT
+                                    EntityType.ELDER_GUARDIAN
                             );
+
                             spawnMob(serverWorld, blockPos, player, mobPoolOne, random, "item.crimson-mod.dice.roll.1");
                             break;
                         case 2:
@@ -79,7 +81,7 @@ public class DiceItem extends Item {
                             List<EntityType<?>> mobPoolThree = Arrays.asList(
                                     EntityType.SKELETON,
                                     EntityType.SLIME,
-                                    EntityType.BAT,
+                                    EntityType.SNOW_GOLEM,
                                     EntityType.ZOMBIE,
                                     EntityType.CREEPER
                             );
@@ -91,7 +93,7 @@ public class DiceItem extends Item {
                                     EntityType.IRON_GOLEM,
                                     EntityType.ALLAY,
                                     EntityType.ARMADILLO,
-                                    EntityType.SNOW_GOLEM
+                                    EntityType.BAT
                             );
                             spawnMob(serverWorld, blockPos, player, mobPoolFour, random, "item.crimson-mod.dice.roll.4");
                             break;
@@ -126,14 +128,29 @@ public class DiceItem extends Item {
         return ActionResult.PASS;
     }
 
-    private void spawnMob(ServerWorld world, BlockPos pos, PlayerEntity player, List<EntityType<?>> mobPool, Random random, String messageKey) {
+    private void spawnMob(ServerWorld world, BlockPos pos, PlayerEntity player,
+                          List<EntityType<?>> mobPool, Random random, String messageKey) {
+
         EntityType<?> selectedMob = mobPool.get(random.nextInt(mobPool.size()));
         Entity mobEntity = selectedMob.create(world, SpawnReason.EVENT);
+
         if (mobEntity != null) {
             double x = pos.getX() + 0.5;
             double y = pos.getY() + 1;
             double z = pos.getZ() + 0.5;
             mobEntity.setPosition(x, y, z);
+
+            if (mobEntity instanceof LivingEntity) {
+                LivingEntity livingEntity = (LivingEntity) mobEntity;
+
+                if (livingEntity instanceof WardenEntity warden) {
+                    warden.increaseAngerAt(player, 150, true);
+                }
+                else if (livingEntity instanceof MobEntity mob) {
+                    mob.setTarget(player);
+                }
+            }
+
             world.spawnParticles(
                     ParticleTypes.EXPLOSION,
                     x, y, z,

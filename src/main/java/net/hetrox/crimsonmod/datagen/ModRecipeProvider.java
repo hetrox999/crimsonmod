@@ -89,6 +89,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .criterion(hasItem(ModBlocks.CRIMSONITE_BLOCK), conditionsFromItem(ModBlocks.CRIMSONITE_BLOCK))
                         .offerTo(exporter);
 
+                ShapedRecipeJsonBuilder.create(itemLookup, RecipeCategory.MISC, ModItems.STAFF, 1)
+                        .pattern(" @ ")
+                        .pattern(" $ ")
+                        .pattern(" $ ")
+                        .input('$',ModBlocks.CRIMSONITE_BLOCK)
+                        .input('@', Items.NETHER_STAR)
+                        .criterion(hasItem(Items.NETHER_STAR), conditionsFromItem(Items.NETHER_STAR))
+                        .offerTo(exporter);
+
 
 
             }

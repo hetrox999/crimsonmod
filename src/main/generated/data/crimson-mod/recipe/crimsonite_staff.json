@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "$": "crimson-mod:crimsonite_block",
+    "@": "minecraft:nether_star"
+  },
+  "pattern": [
+    " @ ",
+    " $ ",
+    " $ "
+  ],
+  "result": {
+    "count": 1,
+    "id": "crimson-mod:crimsonite_staff"
+  }
+}
