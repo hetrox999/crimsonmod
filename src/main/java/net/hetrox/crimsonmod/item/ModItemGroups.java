@@ -22,6 +22,8 @@ public class ModItemGroups {
                        entries.add(ModItems.CRIMSONITE_INGOT);
                        entries.add(ModItems.CRIMSONITE_NUGGET);
                        entries.add(ModItems.RAW_CRIMSONITE);
+                       entries.add(ModItems.DICE);
+                       entries.add(ModItems.STAFF);
                     }).build());
 
     public static final ItemGroup CRIMSONITE_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

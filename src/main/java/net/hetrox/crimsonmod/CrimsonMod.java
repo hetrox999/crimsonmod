@@ -3,6 +3,7 @@ package net.hetrox.crimsonmod;
 import net.fabricmc.api.ModInitializer;
 
 import net.hetrox.crimsonmod.block.ModBlocks;
+import net.hetrox.crimsonmod.component.ModDataComponentTypes;
 import net.hetrox.crimsonmod.item.ModItemGroups;
 import net.hetrox.crimsonmod.item.ModItems;
 import org.slf4j.Logger;
@@ -18,6 +19,7 @@ public class CrimsonMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
+		ModDataComponentTypes.registerDataComponentTypes();
 
 	}
 }

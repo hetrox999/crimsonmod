@@ -6,8 +6,10 @@ import net.hetrox.crimsonmod.block.ModBlocks;
 import net.hetrox.crimsonmod.item.ModItems;
 import net.minecraft.data.recipe.RecipeExporter;
 import net.minecraft.data.recipe.RecipeGenerator;
+import net.minecraft.data.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryEntryLookup;
@@ -77,6 +79,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .offerTo(exporter);
 
                 offerWallRecipe(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRIMSONITE_WALL, ModItems.CRIMSONITE_INGOT);
+
+                ShapedRecipeJsonBuilder.create(itemLookup, RecipeCategory.MISC, ModItems.DICE, 1)
+                        .pattern("   ")
+                        .pattern(" $#")
+                        .pattern(" #$")
+                        .input('$',ModBlocks.CRIMSONITE_BLOCK)
+                        .input('#', Items.GOLD_BLOCK)
+                        .criterion(hasItem(ModBlocks.CRIMSONITE_BLOCK), conditionsFromItem(ModBlocks.CRIMSONITE_BLOCK))
+                        .offerTo(exporter);
 
 
 

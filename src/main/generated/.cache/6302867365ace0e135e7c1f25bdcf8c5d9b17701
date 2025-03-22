@@ -14,6 +14,7 @@ b08184b2ce369cc88ddb7e41520d797ba4282004 assets/crimson-mod/blockstates/crimsoni
 951e8b0fff08a79c81f4ca7c42e8a84d797b103f assets/crimson-mod/blockstates/raw_crimsonite_block.json
 8ed278ad3f885297fe00cca16c04a2b545f27363 assets/crimson-mod/items/crimsonite_block.json
 82fd29d0852dcb095dec0522afdbdc278ef7fd2a assets/crimson-mod/items/crimsonite_button.json
+052552570c50992cea3a636cc919860e41076d10 assets/crimson-mod/items/crimsonite_dice.json
 32426ef20d39c14a42f45fea4d4d51c056da3e8e assets/crimson-mod/items/crimsonite_door.json
 473747fb82ea1cd794a1b9b45d23e641dd7f816f assets/crimson-mod/items/crimsonite_fence.json
 ef4f514c16aad0dc27c877979470f1fcfaaef2ea assets/crimson-mod/items/crimsonite_fence_gate.json
@@ -22,6 +23,7 @@ ef4f514c16aad0dc27c877979470f1fcfaaef2ea assets/crimson-mod/items/crimsonite_fen
 97522ec36a5b4e1a0656f473e832137b15fadc0b assets/crimson-mod/items/crimsonite_ore.json
 99b3b65d3deae64db052643af7f7db43310fed5c assets/crimson-mod/items/crimsonite_pressure_plate.json
 638c123d6774258ab59ebe0bd187fceb76c3cfe7 assets/crimson-mod/items/crimsonite_slab.json
+91b0485eb8430e1e5b35e22346286eb2e3b3136f assets/crimson-mod/items/crimsonite_staff.json
 72308aa1360ffda4e7b5e38bbaae44b3fdf6a9db assets/crimson-mod/items/crimsonite_stairs.json
 4b15774e9feb6f9a2eb337b78a9215d9df193de2 assets/crimson-mod/items/crimsonite_trapdoor.json
 34553c069a8fa29751cfd22bc75b2d59fb32ae81 assets/crimson-mod/items/crimsonite_wall.json
@@ -64,7 +66,9 @@ dc7b7ac65530d92a912b07e75006422acf941db6 assets/crimson-mod/models/block/crimson
 298c13831bf47e88a70ca0f33ce4a2d077860384 assets/crimson-mod/models/block/crimsonite_wall_side_tall.json
 54297a23c774f12e8fe54c4bb295389b62ea8643 assets/crimson-mod/models/block/deepslate_crimsonite_ore.json
 75772e8c61665dc91657b48399dc049512276156 assets/crimson-mod/models/block/raw_crimsonite_block.json
+5cc2bd130cb71b7703147d60800c149b1bea18ce assets/crimson-mod/models/item/crimsonite_dice.json
 e98a83d1282f29e480405cc2d1f87c9716fd0366 assets/crimson-mod/models/item/crimsonite_door.json
 021da31be137f11460706222fdeaea41fd95e03e assets/crimson-mod/models/item/crimsonite_ingot.json
 1f541a9e9bac97ebdabab2b24d594a0215133ddd assets/crimson-mod/models/item/crimsonite_nugget.json
+3c9f29ae6d04b500103f6a0938a3c2cb9a7c35ce assets/crimson-mod/models/item/crimsonite_staff.json
 1e2f17fb686b85a455397d2b09b54f87ee189379 assets/crimson-mod/models/item/raw_crimsonite.json

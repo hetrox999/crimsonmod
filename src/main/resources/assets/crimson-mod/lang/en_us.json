@@ -18,6 +18,20 @@
   "item.crimson-mod.crimsonite_pressure_plate": "Crimsonite Pressure Plate",
 
 
+
+  "item.crimson-mod.crimsonite_dice": "Crimsonite Dice",
+  "item.crimson-mod.crimsonite_staff": "Crimsonite Staff",
+
+
+
+  "item.crimson-mod.dice.roll.1": "You rolled a§l§4 1§r game over, you §l§4LOSE!",
+  "item.crimson-mod.dice.roll.2": "You rolled a§l§5 2§r hahahaha!",
+  "item.crimson-mod.dice.roll.3": "You rolled a§l§9 3§r good enough...",
+  "item.crimson-mod.dice.roll.4": "You rolled a§l§b 4§r at least not something that tries to kill you...",
+  "item.crimson-mod.dice.roll.5": "You rolled a§l§e 5§r great!",
+  "item.crimson-mod.dice.roll.6": "You rolled a§l§6 6§r congrats!!",
+
+
   "itemgroup.crimson-mod.crimsonite_items_group": "Crimsonite Items",
   "itemgroup.crimson-mod.crimsonite_blocks_group": "Crimsonite Blocks",
   "itemgroup.crimson-mod.crimsonite_building_group": "Crimsonite Building"

@@ -38,5 +38,8 @@ public class ModModelProvider extends FabricModelProvider {
             itemModelGenerator.register(ModItems.CRIMSONITE_INGOT, Models.GENERATED);
             itemModelGenerator.register(ModItems.CRIMSONITE_NUGGET, Models.GENERATED);
             itemModelGenerator.register(ModItems.RAW_CRIMSONITE, Models.GENERATED);
+
+            itemModelGenerator.register(ModItems.DICE, Models.GENERATED);
+            itemModelGenerator.register(ModItems.STAFF, Models.GENERATED);
     }
 }
