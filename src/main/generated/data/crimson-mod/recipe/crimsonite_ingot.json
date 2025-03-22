@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "crimson-mod:crimsonite_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "crimson-mod:crimsonite_ingot"
+  }
+}

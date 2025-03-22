@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "crimson-mod:block/crimsonite_slab"
+    },
+    "type=double": {
+      "model": "crimson-mod:block/crimsonite_block"
+    },
+    "type=top": {
+      "model": "crimson-mod:block/crimsonite_slab_top"
+    }
+  }
+}

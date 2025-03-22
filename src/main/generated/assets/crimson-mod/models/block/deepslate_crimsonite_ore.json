@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "crimson-mod:block/deepslate_crimsonite_ore"
+  }
+}

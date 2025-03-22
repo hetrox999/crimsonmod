@@ -1,0 +1,14 @@
+// 1.21.4	-999999999-01-01T00:00:00	Crimson Mod/Block Loot Tables
+950646726396e496784693851085e1c5ccb78479 data/crimson-mod/loot_table/blocks/crimsonite_block.json
+53a8fccb012d4a44f77053c842cdb494a3b4219f data/crimson-mod/loot_table/blocks/crimsonite_button.json
+b5b1c963df69fc84e4096fa77ab606bf5305dd1b data/crimson-mod/loot_table/blocks/crimsonite_door.json
+a187245ceab058982da05198e7c760cd3289b432 data/crimson-mod/loot_table/blocks/crimsonite_fence.json
+79bfe5f2b04dc69a1343ffdac04d53a79af0a774 data/crimson-mod/loot_table/blocks/crimsonite_fence_gate.json
+419f28682fe73b17179b4cc9e0a60ae4ebbaefc7 data/crimson-mod/loot_table/blocks/crimsonite_ore.json
+371b41d597a8fd1e85e8319ab89a600194c2e733 data/crimson-mod/loot_table/blocks/crimsonite_pressure_plate.json
+576e296c7fae28a5f526ad50188ef6ca1bd85c8e data/crimson-mod/loot_table/blocks/crimsonite_slab.json
+fb0489e38e4f3adab896b7dfd85bd3963cd8f134 data/crimson-mod/loot_table/blocks/crimsonite_stairs.json
+972c5048d061c3089386249196de87b56f8dd8c6 data/crimson-mod/loot_table/blocks/crimsonite_trapdoor.json
+f39a8b2e2a122e800b7bd3384858651c538c9a01 data/crimson-mod/loot_table/blocks/crimsonite_wall.json
+1a4616bb71b6e62adf1a3be3c4c4096234b16086 data/crimson-mod/loot_table/blocks/deepslate_crimsonite_ore.json
+b16ebd14016bea0456589da84560a9cc6e1c9c35 data/crimson-mod/loot_table/blocks/raw_crimsonite_block.json

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "crimson-mod:block/crimsonite_block",
+    "side": "crimson-mod:block/crimsonite_block",
+    "top": "crimson-mod:block/crimsonite_block"
+  }
+}

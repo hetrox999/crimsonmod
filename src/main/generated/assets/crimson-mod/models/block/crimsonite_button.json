@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "crimson-mod:block/crimsonite_block"
+  }
+}

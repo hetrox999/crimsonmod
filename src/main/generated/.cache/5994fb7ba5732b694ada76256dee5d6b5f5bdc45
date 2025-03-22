@@ -1,0 +1,6 @@
+// 1.21.4	-999999999-01-01T00:00:00	Crimson Mod/Tags for minecraft:block
+4cb78ed6d985d7a3fb4c3548e1cbb2d0b395093e data/minecraft/tags/block/fence_gates.json
+77a357bd9c6aa8f324db4c5e989990ec057a84cd data/minecraft/tags/block/fences.json
+5a87a617e5cbb5b7247021dd7a98d004f7ae0a4a data/minecraft/tags/block/mineable/pickaxe.json
+19132b42bb8373d4c3726fef21ba273297239459 data/minecraft/tags/block/needs_iron_tool.json
+0310ca390292f9f45d3ac7a200817f4143e9e91e data/minecraft/tags/block/walls.json

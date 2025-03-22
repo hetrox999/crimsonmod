@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "crimson-mod:block/crimsonite_block"
+  }
+}

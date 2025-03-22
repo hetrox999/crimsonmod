@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    "crimson-mod:crimsonite_nugget"
+  ],
+  "result": {
+    "count": 1,
+    "id": "crimson-mod:crimsonite_button"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "crimson-mod:raw_crimsonite_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "crimson-mod:raw_crimsonite"
+  }
+}

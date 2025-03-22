@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "crimson-mod:block/crimsonite_pressure_plate"
+    },
+    "powered=true": {
+      "model": "crimson-mod:block/crimsonite_pressure_plate_down"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "crimson-mod:crimsonite_nugget",
+    "crimson-mod:crimsonite_nugget",
+    "crimson-mod:crimsonite_nugget",
+    "crimson-mod:crimsonite_nugget",
+    "crimson-mod:crimsonite_nugget",
+    "crimson-mod:crimsonite_nugget",
+    "crimson-mod:crimsonite_nugget",
+    "crimson-mod:crimsonite_nugget",
+    "crimson-mod:crimsonite_nugget"
+  ],
+  "result": {
+    "count": 1,
+    "id": "crimson-mod:crimsonite_ingot"
+  }
+}

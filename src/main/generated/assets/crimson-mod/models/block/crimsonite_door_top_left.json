@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left",
+  "textures": {
+    "bottom": "crimson-mod:block/crimsonite_door_bottom",
+    "top": "crimson-mod:block/crimsonite_door_top"
+  }
+}

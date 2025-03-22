@@ -1,0 +1,24 @@
+{
+  "item.crimson-mod.crimsonite_ingot": "Crimsonite Ingot",
+  "item.crimson-mod.crimsonite_nugget": "Crimsonite Nugget",
+  "item.crimson-mod.raw_crimsonite": "Raw Crimsonite",
+
+  "item.crimson-mod.crimsonite_block": "Crimsonite Block",
+  "item.crimson-mod.raw_crimsonite_block": "Raw Crimsonite Block",
+  "item.crimson-mod.crimsonite_ore": "Crimsonite Ore",
+  "item.crimson-mod.deepslate_crimsonite_ore": "Deepslate Crimsonite Ore",
+  "item.crimson-mod.crimsonite_stairs": "Crimsonite Stairs",
+  "item.crimson-mod.crimsonite_slab": "Crimsonite Slab",
+  "item.crimson-mod.crimsonite_fence": "Crimsonite Fence",
+  "item.crimson-mod.crimsonite_fence_gate": "Crimsonite Fence Gate",
+  "item.crimson-mod.crimsonite_door": "Crimsonite Door",
+  "item.crimson-mod.crimsonite_wall": "Crimsonite Wall",
+  "item.crimson-mod.crimsonite_button": "Crimsonite Button",
+  "item.crimson-mod.crimsonite_trapdoor": "Crimsonite Trapdoor",
+  "item.crimson-mod.crimsonite_pressure_plate": "Crimsonite Pressure Plate",
+
+
+  "itemgroup.crimson-mod.crimsonite_items_group": "Crimsonite Items",
+  "itemgroup.crimson-mod.crimsonite_blocks_group": "Crimsonite Blocks",
+  "itemgroup.crimson-mod.crimsonite_building_group": "Crimsonite Building"
+}
