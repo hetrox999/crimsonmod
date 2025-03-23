@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "crimson-mod:crimsonite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "crimson-mod:crimsonite"
+      }
+    ]
+  }
+}

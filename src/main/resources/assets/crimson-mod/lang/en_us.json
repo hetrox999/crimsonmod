@@ -21,9 +21,25 @@
 
   "item.crimson-mod.crimsonite_dice": "Crimsonite Dice",
   "item.crimson-mod.crimsonite_staff": "Crimsonite Staff",
+  "item.crimson-mod.crimsonite_chisel": "Crimsonite Chisel",
+  "item.crimson-mod.crimsonite_sword": "Crimsonite Sword",
+  "item.crimson-mod.crimsonite_axe": "Crimsonite Axe",
+  "item.crimson-mod.crimsonite_pickaxe": "Crimsonite Pickaxe",
+  "item.crimson-mod.crimsonite_hoe": "Crimsonite Hoe",
+  "item.crimson-mod.crimsonite_hammer": "Crimsonite Hammer",
+
+  "item.crimson-mod.crimsonite_helmet": "Crimsonite Helmet",
+  "item.crimson-mod.crimsonite_chestplate": "Crimsonite Chestplate",
+  "item.crimson-mod.crimsonite_leggings": "Crimsonite Leggings",
+  "item.crimson-mod.crimsonite_boots": "Crimsonite Boots",
+
+  "tooltip.crimson-mod.chisel.tooltip": "Press §6§l SHIFT§r  to view more info",
+  "tooltip.crimson-mod.chisel.tooltip2": "This item turns blocks into their different form!",
 
   "tooltip.crimson-mod.staff.tooltip": "Press §6§l SHIFT§r  to view more info",
   "tooltip.crimson-mod.staff.tooltip2": "§9§kI§r  This §6§l ITEM §r  is §a§l  MAGIC§r  §9§kI§r",
+
+  "tooltip.tutorialmod.magic_block.tooltip": "This block is made of §6§lTOXIC§r substance, watch out!",
 
 
 
@@ -37,5 +53,6 @@
 
   "itemgroup.crimson-mod.crimsonite_items_group": "Crimsonite Items",
   "itemgroup.crimson-mod.crimsonite_blocks_group": "Crimsonite Blocks",
-  "itemgroup.crimson-mod.crimsonite_building_group": "Crimsonite Building"
+  "itemgroup.crimson-mod.crimsonite_building_group": "Crimsonite Building",
+  "itemgroup.crimson-mod.crimsonite_tools_group": "Crimsonite Tools"
 }

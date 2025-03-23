@@ -2,6 +2,7 @@ package net.hetrox.crimsonmod.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.hetrox.crimsonmod.CrimsonMod;
+import net.hetrox.crimsonmod.block.custom.MagicBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -19,7 +20,7 @@ import java.util.function.Function;
 public class ModBlocks {
     public static final Block CRIMSONITE_BLOCK = register(
             "crimsonite_block",
-            Block::new,
+            MagicBlock::new,
             AbstractBlock.Settings.create()
                     .requiresTool()
                     .strength(3f)

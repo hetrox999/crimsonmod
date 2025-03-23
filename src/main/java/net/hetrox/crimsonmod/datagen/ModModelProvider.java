@@ -3,10 +3,12 @@ package net.hetrox.crimsonmod.datagen;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.hetrox.crimsonmod.block.ModBlocks;
+import net.hetrox.crimsonmod.item.ModArmorMaterial;
 import net.hetrox.crimsonmod.item.ModItems;
 import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
 import net.minecraft.client.data.Models;
+import net.minecraft.item.ArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -41,5 +43,18 @@ public class ModModelProvider extends FabricModelProvider {
 
             itemModelGenerator.register(ModItems.DICE, Models.GENERATED);
             itemModelGenerator.register(ModItems.STAFF, Models.GENERATED);
+            itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
+
+            itemModelGenerator.register(ModItems.CRIMSONITE_SWORD, Models.HANDHELD);
+            itemModelGenerator.register(ModItems.CRIMSONITE_AXE, Models.HANDHELD);
+            itemModelGenerator.register(ModItems.CRIMSONITE_SHOVEL, Models.HANDHELD);
+            itemModelGenerator.register(ModItems.CRIMSONITE_PICKAXE, Models.HANDHELD);
+            itemModelGenerator.register(ModItems.CRIMSONITE_HOE, Models.HANDHELD);
+            itemModelGenerator.register(ModItems.CRIMSONITE_HAMMER, Models.HANDHELD);
+
+            itemModelGenerator.registerArmor(ModItems.CRIMSONITE_HELMET, ModArmorMaterial.CRIMSONITE_ARMOR_MATERIAL_KEY, "crimsonite", false);
+            itemModelGenerator.registerArmor(ModItems.CRIMSONITE_CHESTPLATE, ModArmorMaterial.CRIMSONITE_ARMOR_MATERIAL_KEY, "crimsonite", false);
+            itemModelGenerator.registerArmor(ModItems.CRIMSONITE_LEGGINGS, ModArmorMaterial.CRIMSONITE_ARMOR_MATERIAL_KEY, "crimsonite", false);
+            itemModelGenerator.registerArmor(ModItems.CRIMSONITE_BOOTS, ModArmorMaterial.CRIMSONITE_ARMOR_MATERIAL_KEY, "crimsonite", false);
     }
 }

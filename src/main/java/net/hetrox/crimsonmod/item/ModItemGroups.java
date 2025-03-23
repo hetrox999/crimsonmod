@@ -22,6 +22,7 @@ public class ModItemGroups {
                        entries.add(ModItems.RAW_CRIMSONITE);
                        entries.add(ModItems.DICE);
                        entries.add(ModItems.STAFF);
+                       entries.add(ModItems.CHISEL);
                     }).build());
 
     public static final ItemGroup CRIMSONITE_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -34,6 +35,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CRIMSONITE_ORE);
                         entries.add(ModBlocks.DEEPSLATE_CRIMSONITE_ORE);
                     }).build());
+
     public static final ItemGroup CRIMSONITE_BUILDING_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(CrimsonMod.MOD_ID, "crimsonite_building_group"),
             FabricItemGroup.builder().icon(()-> new ItemStack(ModBlocks.CRIMSONITE_STAIRS))
@@ -49,6 +51,22 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CRIMSONITE_TRAPDOOR);
                         entries.add(ModBlocks.CRIMSONITE_DOOR);
                     }).build());
+
+    public static final ItemGroup CRIMSONITE_TOOLS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(CrimsonMod.MOD_ID, "crimsonite_tools_group"),
+            FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.CRIMSONITE_SWORD))
+                    .displayName(Text.translatable("itemgroup.crimson-mod.crimsonite_tools_group"))
+                    .entries(((displayContext, entries) -> {
+                        entries.add(ModItems.CRIMSONITE_SWORD);
+                        entries.add(ModItems.CRIMSONITE_AXE);
+                        entries.add(ModItems.CRIMSONITE_HOE);
+                        entries.add(ModItems.CRIMSONITE_SHOVEL);
+                        entries.add(ModItems.CRIMSONITE_PICKAXE);
+                        entries.add(ModItems.CRIMSONITE_HELMET);
+                        entries.add(ModItems.CRIMSONITE_CHESTPLATE);
+                        entries.add(ModItems.CRIMSONITE_LEGGINGS);
+                        entries.add(ModItems.CRIMSONITE_BOOTS);
+                    })).build());
 
     public static void registerItemGroups() {
         CrimsonMod.LOGGER.info("Registering Item Groups for "+CrimsonMod.MOD_ID);

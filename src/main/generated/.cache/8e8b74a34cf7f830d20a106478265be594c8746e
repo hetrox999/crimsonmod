@@ -1,1 +1,8 @@
 // 1.21.4	-999999999-01-01T00:00:00	Crimson Mod/Tags for minecraft:item
+1c2171bac3a11bfe79d45b13e7df68709a3796f1 data/crimson-mod/tags/item/crimsonite_tool_materials.json
+822c20b40c6934a5de44c807ce767f2cfc6d8cd2 data/crimson-mod/tags/item/transformable_items.json
+44ab9375ce4529c78a20e09562f190db63d0bb15 data/minecraft/tags/item/axes.json
+f6a1aaccecd97fb7634a6c47bb41e7ebc8e643b0 data/minecraft/tags/item/hoes.json
+e8b7a743a4bffe31bdcef8d9a68d611c5442c156 data/minecraft/tags/item/pickaxes.json
+7f686ea4c9b3ad562aca9182a5335094eb83022d data/minecraft/tags/item/shovels.json
+f8fc451f325e25a2eb291f89e023f8315becdffb data/minecraft/tags/item/swords.json
