@@ -23,6 +23,8 @@ public class ModItemGroups {
                        entries.add(ModItems.DICE);
                        entries.add(ModItems.STAFF);
                        entries.add(ModItems.CHISEL);
+                       entries.add(ModItems.DZIK);
+                       entries.add(ModItems.PIZZA);
                     }).build());
 
     public static final ItemGroup CRIMSONITE_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

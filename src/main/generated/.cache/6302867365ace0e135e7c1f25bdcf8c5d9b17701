@@ -39,6 +39,8 @@ b95b169dfce4a3cbc95d74ec494cf69f37fcd7b5 assets/crimson-mod/items/crimsonite_swo
 4b15774e9feb6f9a2eb337b78a9215d9df193de2 assets/crimson-mod/items/crimsonite_trapdoor.json
 34553c069a8fa29751cfd22bc75b2d59fb32ae81 assets/crimson-mod/items/crimsonite_wall.json
 dfe84ec41684cea670ec2cb227384e9732ad6fe6 assets/crimson-mod/items/deepslate_crimsonite_ore.json
+04b1a9e4a588b9d6ee7ef04636f4790fca2798f7 assets/crimson-mod/items/dzik.json
+6dabc4f1963664817128708b45153b61e4553499 assets/crimson-mod/items/pizza.json
 3c1638a39b686f90ea6c684834cba544f53130b7 assets/crimson-mod/items/raw_crimsonite.json
 b97aec2f251254510819c76e5f9c1c4070d3c49c assets/crimson-mod/items/raw_crimsonite_block.json
 f790c07a8f158bef07988f9132f6f6c0d8fb3ed4 assets/crimson-mod/models/block/crimsonite_block.json
@@ -137,4 +139,6 @@ ad818c52a70a585d41169f4982ec2d29dc434f80 assets/crimson-mod/models/item/crimsoni
 aab4f1c0f488ecb2fb845b07d1b21b6bf7caf8c0 assets/crimson-mod/models/item/crimsonite_shovel.json
 3c9f29ae6d04b500103f6a0938a3c2cb9a7c35ce assets/crimson-mod/models/item/crimsonite_staff.json
 75b9c4c8219cdb24ffbfaaf41c08588c10d35c48 assets/crimson-mod/models/item/crimsonite_sword.json
+8073e3569ea0ca0b8e7e11d905aff9dd440b8343 assets/crimson-mod/models/item/dzik.json
+d9f50f209a6a4d965d503244ef94f384894c7d5e assets/crimson-mod/models/item/pizza.json
 1e2f17fb686b85a455397d2b09b54f87ee189379 assets/crimson-mod/models/item/raw_crimsonite.json

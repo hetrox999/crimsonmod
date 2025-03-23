@@ -7,6 +7,7 @@ import net.hetrox.crimsonmod.item.custom.DiceItem;
 import net.hetrox.crimsonmod.item.custom.HammerItem;
 import net.hetrox.crimsonmod.item.custom.StaffItem;
 import net.hetrox.crimsonmod.util.ModTags;
+import net.minecraft.component.DataComponentTypes;
 import net.minecraft.item.*;
 import net.minecraft.item.equipment.EquipmentType;
 import net.minecraft.registry.RegistryKey;
@@ -108,6 +109,17 @@ public class ModItems {
             register("crimsonite_chisel", ChiselItem::new, new Item.Settings()
                     .maxDamage(128)
                     .rarity(Rarity.COMMON));
+    public static final Item PIZZA = register("pizza",
+            settings -> new Item(settings.food(ModFoodComponents.PIZZA, ModConsumableComponents.PIZZA)),
+            new Item.Settings()
+    );
+
+    public static final Item DZIK = register("dzik",
+            settings -> new Item(settings.food(ModFoodComponents.DRINK, ModConsumableComponents.DZIK)
+                    .component(DataComponentTypes.ENCHANTMENT_GLINT_OVERRIDE, true)),
+            new Item.Settings()
+    );
+
 
 
 

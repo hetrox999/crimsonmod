@@ -44,6 +44,8 @@ public class ModModelProvider extends FabricModelProvider {
             itemModelGenerator.register(ModItems.DICE, Models.GENERATED);
             itemModelGenerator.register(ModItems.STAFF, Models.GENERATED);
             itemModelGenerator.register(ModItems.CHISEL, Models.GENERATED);
+            itemModelGenerator.register(ModItems.PIZZA, Models.GENERATED);
+            itemModelGenerator.register(ModItems.DZIK, Models.GENERATED);
 
             itemModelGenerator.register(ModItems.CRIMSONITE_SWORD, Models.HANDHELD);
             itemModelGenerator.register(ModItems.CRIMSONITE_AXE, Models.HANDHELD);
