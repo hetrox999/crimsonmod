@@ -6,6 +6,7 @@ b21f6080850eb0ad27e7f176b3d6c733f008e41b data/crimson-mod/advancement/recipes/bu
 07359861b48866e96f12aacd199a4ae59afcdb82 data/crimson-mod/advancement/recipes/building_blocks/crimsonite_stairs.json
 6a9092209f28eec277a45c767e06d07320429e95 data/crimson-mod/advancement/recipes/building_blocks/crimsonite_wall.json
 4ab0d4fec83164500ab6df9e2e4a52f0edaf88ca data/crimson-mod/advancement/recipes/decorations/crimsonite_fence.json
+062b16b6eb62647f317ef98d4d40b40c50711da1 data/crimson-mod/advancement/recipes/misc/condensed_lava_bucket.json
 f5df0367517797ba5e6407d246af0693d4946dc7 data/crimson-mod/advancement/recipes/misc/crimsonite_dice.json
 c4c870a908eb36ba42777b4aa1bbc1b41519541e data/crimson-mod/advancement/recipes/misc/crimsonite_ingot_from_nuggets.json
 857f97b2b36a99a00f5552402064cdc084510dc1 data/crimson-mod/advancement/recipes/misc/crimsonite_nuggets_from_ingot.json
@@ -16,6 +17,7 @@ c0dfff01845a14829020ab6a1fc3f7486d25bfd5 data/crimson-mod/advancement/recipes/mi
 3c667c2bf4c33c1e8aa8168365d88fa9a120b069 data/crimson-mod/advancement/recipes/redstone/crimsonite_door.json
 11022161d02bd3eddcbbd6b9d58e28fbb68ad848 data/crimson-mod/advancement/recipes/redstone/crimsonite_fence_gate.json
 787f99ac7b5da2c8196d89b3ecb77f9c07bc9833 data/crimson-mod/advancement/recipes/redstone/crimsonite_trapdoor.json
+1e9ab75d1e4b2a466161cd7599ef6dfb8cb863c5 data/crimson-mod/recipe/condensed_lava_bucket.json
 7e8f1f755979b1a804fbb8155e5f0e5a06e1975f data/crimson-mod/recipe/crimsonite_block.json
 35bc6e30d035b9582a4c1778e91d5550f914dfec data/crimson-mod/recipe/crimsonite_button.json
 394f63eba65a62928ea2b4542a51e8e4fcd9ceb5 data/crimson-mod/recipe/crimsonite_dice.json

@@ -33,6 +33,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 offerReversibleCompactingRecipes(RecipeCategory.BUILDING_BLOCKS, ModItems.CRIMSONITE_INGOT, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CRIMSONITE_BLOCK);
                 offerReversibleCompactingRecipes(RecipeCategory.MISC, ModItems.RAW_CRIMSONITE, RecipeCategory.MISC, ModBlocks.RAW_CRIMSONITE_BLOCK);
 
+                ShapelessRecipeJsonBuilder.create(itemLookup, RecipeCategory.MISC, ModItems.CONDENSED_LAVA_BUCKET, 1)
+                                .input(Items.LAVA_BUCKET, 9)
+                                .criterion(hasItem(Items.LAVA_BUCKET), conditionsFromItem(Items.LAVA_BUCKET))
+                                .offerTo(exporter);
+
                 ShapelessRecipeJsonBuilder.create(itemLookup, RecipeCategory.MISC, ModItems.CRIMSONITE_NUGGET ,9)
                         .input(ModItems.CRIMSONITE_INGOT)
                         .criterion(hasItem(ModItems.CRIMSONITE_INGOT), conditionsFromItem(ModItems.CRIMSONITE_INGOT))

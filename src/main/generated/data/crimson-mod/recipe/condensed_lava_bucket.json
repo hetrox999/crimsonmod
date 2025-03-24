@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:lava_bucket",
+    "minecraft:lava_bucket",
+    "minecraft:lava_bucket",
+    "minecraft:lava_bucket",
+    "minecraft:lava_bucket",
+    "minecraft:lava_bucket",
+    "minecraft:lava_bucket",
+    "minecraft:lava_bucket",
+    "minecraft:lava_bucket"
+  ],
+  "result": {
+    "count": 1,
+    "id": "crimson-mod:condensed_lava_bucket"
+  }
+}

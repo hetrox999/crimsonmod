@@ -1,6 +1,7 @@
 package net.hetrox.crimsonmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.registry.FuelRegistryEvents;
 import net.hetrox.crimsonmod.CrimsonMod;
 import net.hetrox.crimsonmod.item.custom.ChiselItem;
 import net.hetrox.crimsonmod.item.custom.DiceItem;
@@ -120,6 +121,9 @@ public class ModItems {
             new Item.Settings()
     );
 
+    public static final Item CONDENSED_LAVA_BUCKET = register("condensed_lava_bucket",
+            Item::new, new Item.Settings());
+
 
 
 
@@ -137,6 +141,7 @@ public class ModItems {
             fabricItemGroupEntries.add(CRIMSONITE_NUGGET);
             fabricItemGroupEntries.add(DICE);
             fabricItemGroupEntries.add(CHISEL);
+            fabricItemGroupEntries.add(CONDENSED_LAVA_BUCKET);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(fabricItemGroupEntries -> {

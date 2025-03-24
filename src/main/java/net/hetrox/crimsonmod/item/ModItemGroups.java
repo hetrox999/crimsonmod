@@ -25,6 +25,7 @@ public class ModItemGroups {
                        entries.add(ModItems.CHISEL);
                        entries.add(ModItems.DZIK);
                        entries.add(ModItems.PIZZA);
+                       entries.add(ModItems.CONDENSED_LAVA_BUCKET);
                     }).build());
 
     public static final ItemGroup CRIMSONITE_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
